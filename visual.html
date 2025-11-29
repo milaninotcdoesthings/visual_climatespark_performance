@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ClimateSpark Interactive Performance Demo</title>
+
+    <!-- Mobile-friendly -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Plotly JS -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f7f9fc;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: #1b3a57;
+            color: white;
+            padding: 25px;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 32px;
+        }
+
+        h2 {
+            color: #1b3a57;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 30px;
+        }
+
+        #plot {
+            width: 100%;
+            height: 650px;
+        }
+
+        .footer {
+            margin-top: 40px;
+            padding: 20px;
+            background: #e3eaf2;
+            text-align: center;
+            color: #333;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>ClimateSpark Interactive Performance Visualization</h1>
+    <p>Explore how Spark, SciSpark, and ClimateSpark perform at scale</p>
+</header>
+
+<div class="container">
+
+    <h2>About this Demo</h2>
+    <p>
+        This interactive visualization demonstrates how different big-data processing systems
+        handle climate data workloads. ClimateSpark introduces native chunking, spatiotemporal indexing,
+        and optimized data locality — allowing it to outperform both Spark and SciSpark, especially
+        for regional climate queries.
+    </p>
+
+    <p>
+        Use the dropdown menu to switch between <b>Global</b> and <b>Regional</b> queries,
+        and drag the slider to explore how performance changes as the number of queried states increases.
+    </p>
+
+    <div id="plot"></div>
+</div>
+
+<div class="footer">
+    ClimateSpark Interactive Demo • Generated via Plotly • 2025
+</div>
+
+<script>
+// ------------------------------
+// INSERT THE JAVASCRIPT PLOT HERE
+// (I WILL GENERATE IT FOR YOU NEXT)
+// ------------------------------
+</script>
+
+</body>
+</html>
